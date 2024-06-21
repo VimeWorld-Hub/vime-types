@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/runic-tears/vime-types.git"
+    "url": "git+https://github.com/VimeWorld-Hub/vime-types.git"
   },
   "keywords": [
     "vimeworld",
@@ -23,9 +23,9 @@
   "author": "runic-tears",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/runic-tears/vime-types/issues"
+    "url": "https://github.com/VimeWorld-Hub/vime-types/issues"
   },
-  "homepage": "https://types-docs.vimestats.ru/",
+  "homepage": "https://vimeworld-hub.github.io/vime-types/",
   "devDependencies": {
     "@microsoft/tsdoc": "^0.12.16",
     "typedoc": "^0.16.9"
