@@ -1,5 +1,5 @@
 {
-  "name": "vime-types",
+  "name": "@charkosoff/vime-types",
   "version": "0.1.4",
   "description": "Библиотека типов данных из VimeWorld API",
   "scripts": {
