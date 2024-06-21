@@ -9,10 +9,12 @@ export type UserRank =
   | "HOLY"
   | "IMMORTAL"
   | "BUILDER"
+  | "SRBUILDER"
   | "MAPLEAD"
   | "YOUTUBE"
   | "DEV"
   | "ORGANIZER"
+  | "HELPER"
   | "MODER"
   | "WARDEN"
   | "CHIEF"
@@ -105,6 +107,10 @@ export interface IUser {
   playedSeconds: number;
   /** Время последнего входа на сервер (UNIX Timestamp) */
   lastSeen: number;
+  /** Является ли игрок подписчиком VimeWorld Prime */
+  prime: boolean;
+  /** Дата приобретения подписки VimeWorld Prime */
+  primeStart: number | null;
   /** Гильдия, в которой состоит пользователь
    *
    * Если не состоит ни в одной гильдии - `null`

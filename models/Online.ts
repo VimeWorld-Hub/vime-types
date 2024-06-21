@@ -11,7 +11,6 @@ export interface IOnline {
     bp: number;
     bw: number;
     cp: number;
-    dr: number;
     duels: number;
     gg: number;
     hg: number;
@@ -19,17 +18,32 @@ export interface IOnline {
     lobby: number;
     mw: number;
     prison: number;
+    "prison-lite": number;
     sw: number;
+    swt: number;
     murder: number;
     bridge: number;
     jumpleague: number;
-    paintball: number;
     turfwars: number;
     sheep: number;
-    spleef: number;
     tntrun: number;
     tnttag: number;
     luckywars: number;
+    zombieclaus: number;
+    whitecold: number;
+    hide: number;
+    speedbuilders: number;
+    teamfortress: number;
+    fallguys: number;
+    eggwars: number;
+    skyblock: number;
+    bwhype: number;
+    battlebox: number;
+    farm: number;
+    deathrun: number;
+    fireballfight: number;
+    css: number;
+    cor: number;
   };
 }
 
