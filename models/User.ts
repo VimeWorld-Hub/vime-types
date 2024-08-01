@@ -8,6 +8,11 @@ export type UserRank =
   | "PREMIUM"
   | "HOLY"
   | "IMMORTAL"
+  | "DIVINE"
+  | "THANE"
+  | "ELITE"
+  | "ETERNAL"
+  | "VIME"
   | "BUILDER"
   | "SRBUILDER"
   | "MAPLEAD"
@@ -109,8 +114,18 @@ export interface IUser {
   lastSeen: number;
   /** Является ли игрок подписчиком VimeWorld Prime */
   prime: boolean;
-  /** Дата приобретения подписки VimeWorld Prime */
+  /** Дата приобретения подписки VimeWorld Prime
+   *
+   * Если подписка VimeWorld Prime отсутствует - `null`
+   */
   primeStart: number | null;
+  /** Кастомный префикс пользователя
+   *
+   * Если кастомный префикс отсутствует - `null`
+   */
+  prefix: string | null;
+  /** Массив HEX-цветов ника */
+  customColors: string[];
   /** Гильдия, в которой состоит пользователь
    *
    * Если не состоит ни в одной гильдии - `null`
