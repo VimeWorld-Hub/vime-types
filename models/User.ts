@@ -1,5 +1,5 @@
 import { IUserStatsGroup } from "./Stats";
-import { LeaderboardTypes, LeaderboardSorts } from "./Leaderboard";
+import { LeaderboardSorts, LeaderboardTypes } from "./Leaderboard";
 
 /** Возможные ранги */
 export type UserRank =
@@ -106,8 +106,10 @@ export interface IUser {
    * Возвращает значение от 0 до 1 (число с плавающей точкой)
    */
   levelPercentage: number;
-  /** Ранк пользователя */
+  /** Визуальный ранк пользователя */
   rank: UserRank;
+  /** Полный список ранков пользователя */
+  ranks: UserRank[];
   /** Наигранное время в секундах */
   playedSeconds: number;
   /** Время последнего входа на сервер (UNIX Timestamp) */
